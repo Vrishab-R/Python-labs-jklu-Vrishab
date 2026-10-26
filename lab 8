@@ -1,5 +1,7 @@
+#ANS 1
+
+
 '''
-#ans1
 a = input("enter your line: ")
 a = a.lower()
 d = 0
@@ -24,8 +26,10 @@ print(f"total consonants in string: {c}")
 print(f"total space in string: {s}") 
 print(f"total special characters in string: {sc}")
 '''
+#ANS 2
+
 '''
-#ans2
+
 x = input("enter your string: ")
 x = x.lower()
 y = ""
@@ -36,8 +40,10 @@ for i in range(len(x)):
        y+= x[i]
 print(y)
 '''
-'''
-#ans3 #isalpha and is digit only give true for all string
+#ANS3
+
+
+'''#isalpha and is digit only give true for all string
 x = input("input your password:")
 c = 0
 if len(x)<8:
@@ -56,8 +62,16 @@ elif 4>c>1:
 else:
             print("WEAK")
 '''
+
+#ANS 4
+
+
+
 '''
-#ans4 #to join list of strings we use syntax "seperator".join(list)
+#to join list of strings we use syntax "seperator".join(list)
+
+
+
 x = map(input("enter your string:").split())
 c = input("character:")
 pos = [-1]
@@ -72,8 +86,11 @@ pos = " ".join(pos)  # i need to covernt int to str to use join # i can use "".j
 print(f"Count: {count}")
 print(f"Position: {pos}")
 '''
+#ANS-5
+
+
 '''
-#ans5 [list]
+ [list]
 x = input("enter your string:").split()  #split ignores spaces
 count=0
 for i in x:
@@ -97,7 +114,10 @@ if count>0:     #for last word since it wont be printed
     print(count)
 '''
 
-#ans6
+#ANS-6
+
+
+
 x = input("enter your numberplate: ")
 if x.isupper():
     a = x[0:4:]
@@ -111,7 +131,9 @@ else:
     print("FALSE")
       
 '''
-#ans7
+#ANS-7
+
+
 x = input("enter your string:")
 new = []
 new2 = []
@@ -145,7 +167,11 @@ else:
         
         
 '''
-#ans8
+#ANS-8
+
+
+
+
 x = input("enter your string:")   
 seen = ""   
 for i in x:
@@ -154,7 +180,10 @@ for i in x:
         seen+=i
 '''  
 '''
-#ana9 
+#ANS- 9
+
+
+
 x = input("enter your string:").strip()
 shift = int(input("enter shift:"))
 n =""
@@ -174,7 +203,10 @@ for i in x:
 print(n)
 '''
 '''
-#ans10
+#ANS-10
+
+
+
 x = input("enter your string:").strip().lower()
 seen=""
 for i in x:
